@@ -17,7 +17,7 @@ import java.util.Scanner;
 	     System.out.println("Please enter the lab submission  marks (out of 100):");
          labMarks = input.nextDouble(); 
 		 
-		 if (examMarks < 0 || examMarks > 100 ){
+		 if (labMarks < 0 || labMarks > 100 ){
 			 System.out.println("Invalid input for lab submission  marks. Terminating program.");
 		 return;
 		 }
@@ -28,7 +28,7 @@ import java.util.Scanner;
 		 System.out.println("Please enter the percentage given for the lab  submission.");
          labPercentage = input.nextDouble(); 
 		 
-		  if (examPercentage + labPercentage != 100 ){
+		  if (examPercentage + labPercentage !=100 ){
 			 System.out.println("The percentage mut add up to 100. Terminating program.");
 		 return;
 		  }
